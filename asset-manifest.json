@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/cadenceproject/static/css/main.b9c6afcd.chunk.css",
+    "main.js": "/cadenceproject/static/js/main.0ea46df1.chunk.js",
+    "main.js.map": "/cadenceproject/static/js/main.0ea46df1.chunk.js.map",
+    "runtime-main.js": "/cadenceproject/static/js/runtime-main.3ff0e61e.js",
+    "runtime-main.js.map": "/cadenceproject/static/js/runtime-main.3ff0e61e.js.map",
+    "static/js/2.50a53cfd.chunk.js": "/cadenceproject/static/js/2.50a53cfd.chunk.js",
+    "static/js/2.50a53cfd.chunk.js.map": "/cadenceproject/static/js/2.50a53cfd.chunk.js.map",
+    "index.html": "/cadenceproject/index.html",
+    "precache-manifest.0d00259bcf7c94a224328c9a385b909b.js": "/cadenceproject/precache-manifest.0d00259bcf7c94a224328c9a385b909b.js",
+    "service-worker.js": "/cadenceproject/service-worker.js",
+    "static/css/main.b9c6afcd.chunk.css.map": "/cadenceproject/static/css/main.b9c6afcd.chunk.css.map",
+    "static/media/styles.scss": "/cadenceproject/static/media/Fortune100 1.82005e01.svg",
+    "static/media/Asset 13.svg": "/cadenceproject/static/media/Asset 13.9314c522.svg",
+    "static/media/Asset 15.svg": "/cadenceproject/static/media/Asset 15.634bd47d.svg",
+    "static/media/Asset 19.svg": "/cadenceproject/static/media/Asset 19.1e77d9f3.svg",
+    "static/media/Asset 3.svg": "/cadenceproject/static/media/Asset 3.22b1ab95.svg",
+    "static/media/Asset 5 1.svg": "/cadenceproject/static/media/Asset 5 1.d6751744.svg",
+    "static/media/Asset 6.svg": "/cadenceproject/static/media/Asset 6.6d5e804e.svg",
+    "static/media/Asset 8.svg": "/cadenceproject/static/media/Asset 8.3ce417e8.svg",
+    "static/media/Asset 9 1.svg": "/cadenceproject/static/media/Asset 9 1.e0091271.svg",
+    "static/media/Cadence Live.svg": "/cadenceproject/static/media/Cadence Live.804e7392.svg",
+    "static/media/Careers.svg": "/cadenceproject/static/media/Careers.142ba593.svg",
+    "static/media/Download.svg": "/cadenceproject/static/media/Download.d1079b78.svg",
+    "static/media/Frame.svg": "/cadenceproject/static/media/Frame.09bfc913.svg",
+    "static/media/Group 53.svg": "/cadenceproject/static/media/Group 53.bd81bba9.svg",
+    "static/media/Group 54.svg": "/cadenceproject/static/media/Group 54.aaf0b15e.svg",
+    "static/media/Newsroom.svg": "/cadenceproject/static/media/Newsroom.454f0a33.svg",
+    "static/media/Resource Library.svg": "/cadenceproject/static/media/Resource Library.f3974a99.svg",
+    "static/media/Training.svg": "/cadenceproject/static/media/Training.f3ead32f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ff0e61e.js",
+    "static/js/2.50a53cfd.chunk.js",
+    "static/css/main.b9c6afcd.chunk.css",
+    "static/js/main.0ea46df1.chunk.js"
+  ]
+}
