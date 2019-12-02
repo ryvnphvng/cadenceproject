@@ -1,0 +1,53 @@
+.page-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 5px;
+    width: 0px;
+    border-bottom: 3px solid transparent;
+    transition: width .5s ease, border-bottom .5s ease;
+  }
+
+  &:hover:after {
+    width: 100%;
+    border-bottom: 3px solid #333;
+  }
+
+  .icon-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 68px;
+    margin-bottom: 30px;
+
+    .icon {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  .title {
+    height: 24px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+  }
+}

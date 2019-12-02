@@ -1,0 +1,43 @@
+.blog-post {
+  width: 410px;
+  height: 452px;
+  background-color: #fff;
+  padding: 15px;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .caption {
+    width: 380px;
+    height: 34px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 60px;
+  }
+
+  .actions {
+    :nth-child(1),
+    :nth-child(2),
+    :nth-child(3) {
+      margin-right: 16.9px;
+    }
+
+    i {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

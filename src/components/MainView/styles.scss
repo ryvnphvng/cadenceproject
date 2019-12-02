@@ -1,0 +1,605 @@
+.main-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 1600px;
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  padding: 0 100px;
+
+  .content {
+    min-width: 1600px;
+    max-width: 1600px;
+    height: 100%;
+
+    .top-banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 1600px;
+      height: 679.3px;
+      background-image: url("../../assets/imgs/Cadence_Homepage 1@3x.png");
+      background-size: 100% 100%;
+
+      .title {
+        height: 89px;
+        font-family: Rubik;
+        font-size: 75px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fff;
+      }
+
+      .caption {
+        width: 722px;
+        height: 82px;
+        font-family: Rubik;
+        font-size: 35px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .watch-button {
+        width: 194px;
+        height: 53px;
+        border: solid 1px #fff;
+        background-color: rgba(255, 255, 255, 0);
+        color: #fff;
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        transition: background-color 0.75s ease;
+        margin-top: 40px;
+
+        &:hover {
+          background-color: #aaa;
+          outline: none;
+          cursor: pointer;
+        }
+
+        &:active,
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      height: 280px;
+      padding: 0 205px;
+      background-color: #fff;
+    }
+
+    .intelli-zone-banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 1600px;
+      height: 702px;
+      background-color: #eee;
+      padding: 90px;
+
+      .title {
+        height: 65px;
+        font-family: Rubik;
+        font-size: 55px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000;
+        margin-bottom: 60px;
+      }
+
+      .video-content {
+        display: flex;
+        flex-direction: row;
+
+        .first-content,
+        .second-content {
+          margin-right: 30px;
+        }
+
+        .first-content,
+        .second-content,
+        .third-content {
+          display: flex;
+          flex-direction: column;
+
+          .content-img {
+            width: 410px;
+            height: 292px;
+            margin-bottom: 30px;
+          }
+
+          .content-title {
+            height: 30px;
+            font-family: Rubik;
+            font-size: 25px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000;
+            margin-bottom: 15px;
+          }
+
+          .content-link {
+            width: 143px;
+            height: 30px;
+            font-family: Rubik;
+            font-size: 25px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ff0000;
+          }
+        }
+      }
+    }
+
+    .toshiba-banner {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      height: 880px;
+      background-image: url("../../assets/imgs/Background Dark Gray@3x.png");
+      background-size: 100% 100%;
+
+      .logo {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: 0;
+        width: 457px;
+        height: 107px;
+        background-color: #fff;
+
+        img:nth-child(1),
+        img:nth-child(2) {
+          margin-right: 30px;
+        }
+      }
+
+      .left {
+        display: flex;
+        flex-direction: column;
+        margin-top: 345px;
+
+        .spotlight-text {
+          width: 200px;
+          height: 24px;
+          font-family: Rubik;
+          font-size: 20px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #fff;
+          margin-bottom: 15px;
+        }
+
+        .headline-text {
+          width: 631px;
+          height: 192px;
+          font-family: Rubik;
+          font-size: 50px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.28;
+          letter-spacing: normal;
+          color: #fff;
+          margin-bottom: 30px;
+        }
+
+        .caption-text {
+          width: 533px;
+          height: 41px;
+          font-family: Rubik;
+          font-size: 35px;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #fff;
+          margin-bottom: 30px;
+        }
+
+        .learn-button {
+          width: 181px;
+          height: 53px;
+          border: solid 1px #fff;
+          background-color: rgba(255, 255, 255, 0);
+          color: #fff;
+          font-family: Rubik;
+          font-size: 24px;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          transition: background-color 0.75s ease;
+
+          &:hover {
+            background-color: #aaa;
+            outline: none;
+            cursor: pointer;
+          }
+
+          &:active,
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      .right {
+        width: 635px;
+        height: 484px;
+        margin-top: 246px;
+      }
+    }
+
+    .drive-cadence-tech {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 1006px;
+      background-color: #ffffff;
+
+      .icon {
+        margin-top: 90px;
+      }
+
+      .title {
+        width: 1102px;
+        height: 65px;
+        font-family: Rubik;
+        font-size: 55px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000;
+        margin-top: 90px;
+        margin-bottom: 76px;
+      }
+
+      .banners {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        div:nth-child(1),
+        div:nth-child(2),
+        div:nth-child(3),
+        div:nth-child(4) {
+          margin-right: 30px;
+        }
+
+        .artificial-intel,
+        .aerospace-defense,
+        .automotive,
+        .systems-subsystems,
+        .cadence-cloud {
+          position: relative;
+          width: 234px;
+          height: 340px;
+
+          &:hover {
+            cursor: pointer;
+
+            .caption {
+              height: 200px;
+            }
+          }
+
+          .caption {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            bottom: 0;
+            width: 234px;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.6);
+            transition: height 0.75s ease;
+
+            .text {
+              color: #fff;
+              font-family: Rubik;
+              font-size: 24px;
+              font-weight: normal;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.25;
+              letter-spacing: normal;
+              text-align: center;
+              margin-top: 20px;
+            }
+          }
+        }
+
+        .artificial-intel {
+          background-image: url("../../assets/imgs/Asset 14.svg");
+          background-size: 100% 100%;
+        }
+
+        .aerospace-defense {
+          background-image: url("../../assets/imgs/Asset 10.svg");
+          background-size: 100% 100%;
+        }
+
+        .automotive {
+          background-image: url("../../assets/imgs/Asset 11.svg");
+          background-size: 100% 100%;
+        }
+
+        .systems-subsystems {
+          background-image: url("../../assets/imgs/Asset 12.svg");
+          background-size: 100% 100%;
+        }
+
+        .cadence-cloud {
+          background-image: url("../../assets/imgs/Asset 13 1.svg");
+          background-size: 100% 100%;
+        }
+      }
+    }
+
+    .bottom-banner {
+      display: flex;
+      flex-direction: column;
+      height: 473px;
+      background-color: #f2f2f2;
+      padding: 60px 0px 0px 155px;
+
+      .top {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 60px;
+
+        .column {
+          display: flex;
+          flex-direction: column;
+          margin-right: 30px;
+
+          &.fortune-img {
+            width: 96px;
+            height: 187px;
+            background-image: url("../../assets/imgs/Fortune100 1.svg");
+            background-size: 100% 100%;
+          }
+
+          &:last-child {
+            margin-right: 0px;
+            .great-place {
+              width: 173px;
+              height: 60px;
+              font-family: Rubik;
+              font-size: 20px;
+              font-weight: normal;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.5;
+              letter-spacing: normal;
+              color: #333333;
+              margin-bottom: 15px;
+            }
+
+            .fifth-year {
+              width: 142px;
+              height: 40px;
+              font-family: Rubik;
+              font-size: 16px;
+              font-weight: normal;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.25;
+              letter-spacing: normal;
+              color: #333333;
+              margin-bottom: 15px;
+            }
+          }
+
+          .title {
+            width: 217.5px;
+            height: 30px;
+            font-family: Rubik;
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            color: #333333;
+            margin-bottom: 30px;
+          }
+
+          .link {
+            width: 217.5px;
+            height: 20px;
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #147bd1;
+            text-decoration: none;
+            margin-bottom: 15px;
+
+            &:last-child {
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+
+      .bottom {
+        .subscribe-text {
+          width: 303px;
+          height: 30px;
+          font-family: Rubik;
+          font-size: 20px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: normal;
+          color: #333;
+          margin-right: 30px;
+        }
+
+        .email-input {
+          width: 268px;
+          height: 38px;
+          background-color: #fff;
+          color: #000;
+          font-family: Rubik;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          opacity: 0.6;
+          padding-left: 15px;
+          margin-right: 15px;
+        }
+
+        .subscribe-button {
+          width: 135px;
+          height: 38px;
+          background-color: #147bd1;
+          color: #fff;
+          font-family: Rubik;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+
+          &:hover {
+            background-color: #2d95eb;
+            outline: none;
+            cursor: pointer;
+          }
+
+          &:active,
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+
+    .footer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 46px;
+      border: solid 1px #eaeaea;
+      background-color: #eaeaea;
+      padding: 0 155px;
+
+      .copyright {
+        width: 311px;
+        height: 16px;
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #333333;
+        margin-right: 30px;
+      }
+
+      .link {
+        height: 16px;
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #147bd1;
+        text-decoration: none;
+      }
+
+      .divider {
+        height: 16px;
+        border-right: 1px solid #333;
+        margin: 0 15px;
+      }
+
+      .social-media {
+        margin-left: 296px;
+
+        .connect {
+          width: 92px;
+          height: 14px;
+          font-family: Rubik;
+          font-size: 12px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #333333;
+        }
+
+        i {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        :nth-child(1),
+        :nth-child(2),
+        :nth-child(3),
+        :nth-child(4) {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}
